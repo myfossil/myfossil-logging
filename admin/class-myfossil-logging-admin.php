@@ -140,7 +140,7 @@ class myFOSSIL_Logging_Admin {
      * @since 0.0.1
      */
     public function acf_settings_path( $path ) {
-        return plugin_dir_url( __FILE__ ) . 'includes/acf/';
+        return plugin_dir_url( realpath( __FILE__ ) ) . 'includes/acf/';
     }
 
 
@@ -343,7 +343,7 @@ class myFOSSIL_Logging_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-		wp_enqueue_style( $this->name, plugin_dir_url( __FILE__ ) 
+		wp_enqueue_style( $this->name, plugin_dir_url( realpath( __FILE__ ) ) 
                 . 'css/myfossil-logging-admin.css', array(), $this->version, 'all' );
 	}
 
@@ -364,7 +364,7 @@ class myFOSSIL_Logging_Admin {
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
-		wp_enqueue_script( $this->name, plugin_dir_url( __FILE__ ) 
+		wp_enqueue_script( $this->name, plugin_dir_url( realpath( __FILE__ ) ) 
                 . 'js/myfossil-logging-admin.js', array( 'jquery' ), $this->version, false );
 	}
 

@@ -8,16 +8,16 @@
  * the plugin, registers the activation and deactivation functions, and defines
  * a function that starts the plugin.
  *
- * @link              http://github.com/usbmis/myfossil
+ * @link              https://github.com/myfossil/myfossil-logging
  * @package           myfossil-logging
  *
  * @wordpress-plugin
  * Plugin Name:       myFOSSIL Logging
- * Plugin URI:        http://github.com/usbmis/myfossil
+ * Plugin URI:        https://github.com/myfossil/myfossil-logging
  * Description:       Enhances logging of user activity
- * Version:           0.3.0
+ * Version:           0.3.1
  * Author:            myFOSSIL 
- * Author URI:        http://myfossil.org/
+ * Author URI:        https://github.com/myfossil/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       myfossil-logging
