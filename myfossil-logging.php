@@ -9,16 +9,15 @@
  * a function that starts the plugin.
  *
  * @link              http://github.com/usbmis/myfossil
- * @since             0.0.1
  * @package           myfossil-logging
  *
  * @wordpress-plugin
  * Plugin Name:       myFOSSIL Logging
  * Plugin URI:        http://github.com/usbmis/myfossil
  * Description:       Enhances logging of user activity
- * Version:           0.0.1
- * Author:            AtmoApps
- * Author URI:        http://atmoapps.com/
+ * Version:           0.3.0
+ * Author:            myFOSSIL 
+ * Author URI:        http://myfossil.org/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       myfossil-logging
